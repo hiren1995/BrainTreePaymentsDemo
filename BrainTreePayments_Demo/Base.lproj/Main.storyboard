@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="1pf-gQ-2iG">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Brain Tree Payments View Controller-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController storyboardIdentifier="brainTreePaymentsViewController" id="BYZ-38-t0r" customClass="BrainTreePaymentsViewController" customModule="BrainTreePayments_Demo" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Enter the Amount in Rupees you want to Transfer to Logicalwings" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="2" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nqZ-X9-gQq">
+                                <rect key="frame" x="16" y="134" width="343" height="70"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="70" id="Fwa-OR-2GU"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="line" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="rWB-ob-gXU">
+                                <rect key="frame" x="107.5" y="224" width="160" height="30"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="160" id="R1r-Rj-fkq"/>
+                                    <constraint firstAttribute="height" constant="30" id="sF4-AQ-6yr"/>
+                                </constraints>
+                                <nil key="textColor"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="amL-qS-Mb7">
+                                <rect key="frame" x="107.5" y="284" width="160" height="34"/>
+                                <color key="backgroundColor" red="0.63921568630000003" green="0.80392156859999997" blue="0.22352941179999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="160" id="nT8-pK-gmJ"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                                <state key="normal" title="Transfer">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                </state>
+                                <connections>
+                                    <action selector="btnTransfer:" destination="BYZ-38-t0r" eventType="touchUpInside" id="N8j-7y-KYT"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" red="0.92122722444138994" green="0.92122722444138994" blue="0.92122722444138994" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="amL-qS-Mb7" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="6sS-O0-eg3"/>
+                            <constraint firstItem="amL-qS-Mb7" firstAttribute="top" secondItem="rWB-ob-gXU" secondAttribute="bottom" constant="30" id="R25-ud-D9J"/>
+                            <constraint firstItem="rWB-ob-gXU" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="YV4-rl-JPb"/>
+                            <constraint firstItem="nqZ-X9-gQq" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="70" id="bQA-Dj-1GA"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="nqZ-X9-gQq" secondAttribute="trailing" constant="16" id="kuF-cL-YC0"/>
+                            <constraint firstItem="rWB-ob-gXU" firstAttribute="top" secondItem="nqZ-X9-gQq" secondAttribute="bottom" constant="20" id="qNX-rH-fno"/>
+                            <constraint firstItem="nqZ-X9-gQq" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="16" id="tRk-lt-5zE"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="91W-gZ-Yac"/>
+                    <connections>
+                        <outlet property="txtAmount" destination="rWB-ob-gXU" id="LdV-Kl-F3z"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="952.79999999999995" y="68.815592203898049"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="2Sf-dx-YMc">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="1pf-gQ-2iG" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="av5-ap-57C">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="0De-PA-Mr9"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="04f-Ae-gDR" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="223" y="69"/>
+        </scene>
+    </scenes>
+</document>

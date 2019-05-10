@@ -1,0 +1,498 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3C921C14218B414B00ADEF56 /* Transaction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3C921C13218B414B00ADEF56 /* Transaction.swift */; };
+		3CEB095D218B2DE100A92793 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CEB095C218B2DE100A92793 /* AppDelegate.swift */; };
+		3CEB0962218B2DE100A92793 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CEB0960218B2DE100A92793 /* Main.storyboard */; };
+		3CEB0964218B2DE300A92793 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3CEB0963218B2DE300A92793 /* Assets.xcassets */; };
+		3CEB0967218B2DE300A92793 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CEB0965218B2DE300A92793 /* LaunchScreen.storyboard */; };
+		3CEB0975218B377D00A92793 /* ApiCallbacks.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CEB096F218B377D00A92793 /* ApiCallbacks.swift */; };
+		3CEB0976218B377D00A92793 /* ApiParam.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CEB0970218B377D00A92793 /* ApiParam.swift */; };
+		3CEB0977218B377D00A92793 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CEB0971218B377D00A92793 /* Reachability.swift */; };
+		3CEB0978218B377D00A92793 /* ApiConfig.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CEB0972218B377D00A92793 /* ApiConfig.swift */; };
+		3CEB0979218B377D00A92793 /* HttpManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CEB0973218B377D00A92793 /* HttpManager.swift */; };
+		3CEB097A218B377D00A92793 /* ApiRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CEB0974218B377D00A92793 /* ApiRequest.swift */; };
+		3CEB097E218B378E00A92793 /* ExtData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CEB097C218B378E00A92793 /* ExtData.swift */; };
+		3CEB097F218B378E00A92793 /* ExtString.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CEB097D218B378E00A92793 /* ExtString.swift */; };
+		3CEB0983218B379900A92793 /* DebitResponseModelBase.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CEB0982218B379900A92793 /* DebitResponseModelBase.swift */; };
+		3CEB0986218B37CF00A92793 /* BaseViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CEB0985218B37CF00A92793 /* BaseViewController.swift */; };
+		3CEB0988218B399800A92793 /* BrainTreePaymentsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CEB0987218B399800A92793 /* BrainTreePaymentsViewController.swift */; };
+		648985778D9003B2B7D37C91 /* Pods_BrainTreePayments_Demo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 985730047C05DD6F1DFC0E4D /* Pods_BrainTreePayments_Demo.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		3C921C13218B414B00ADEF56 /* Transaction.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Transaction.swift; sourceTree = "<group>"; };
+		3CEB0959218B2DE100A92793 /* BrainTreePayments_Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BrainTreePayments_Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3CEB095C218B2DE100A92793 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		3CEB0961218B2DE100A92793 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3CEB0963218B2DE300A92793 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		3CEB0966218B2DE300A92793 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		3CEB0968218B2DE300A92793 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3CEB096F218B377D00A92793 /* ApiCallbacks.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiCallbacks.swift; sourceTree = "<group>"; };
+		3CEB0970218B377D00A92793 /* ApiParam.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiParam.swift; sourceTree = "<group>"; };
+		3CEB0971218B377D00A92793 /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		3CEB0972218B377D00A92793 /* ApiConfig.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiConfig.swift; sourceTree = "<group>"; };
+		3CEB0973218B377D00A92793 /* HttpManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HttpManager.swift; sourceTree = "<group>"; };
+		3CEB0974218B377D00A92793 /* ApiRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ApiRequest.swift; sourceTree = "<group>"; };
+		3CEB097C218B378E00A92793 /* ExtData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExtData.swift; sourceTree = "<group>"; };
+		3CEB097D218B378E00A92793 /* ExtString.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExtString.swift; sourceTree = "<group>"; };
+		3CEB0982218B379900A92793 /* DebitResponseModelBase.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DebitResponseModelBase.swift; sourceTree = "<group>"; };
+		3CEB0985218B37CF00A92793 /* BaseViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BaseViewController.swift; sourceTree = "<group>"; };
+		3CEB0987218B399800A92793 /* BrainTreePaymentsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BrainTreePaymentsViewController.swift; sourceTree = "<group>"; };
+		985730047C05DD6F1DFC0E4D /* Pods_BrainTreePayments_Demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BrainTreePayments_Demo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CC32BD3066C175A0DEA4B81C /* Pods-BrainTreePayments_Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BrainTreePayments_Demo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-BrainTreePayments_Demo/Pods-BrainTreePayments_Demo.debug.xcconfig"; sourceTree = "<group>"; };
+		F35D332FB78227DDD6F20934 /* Pods-BrainTreePayments_Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BrainTreePayments_Demo.release.xcconfig"; path = "Pods/Target Support Files/Pods-BrainTreePayments_Demo/Pods-BrainTreePayments_Demo.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3CEB0956218B2DE100A92793 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				648985778D9003B2B7D37C91 /* Pods_BrainTreePayments_Demo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3CEB0950218B2DE100A92793 = {
+			isa = PBXGroup;
+			children = (
+				3CEB095B218B2DE100A92793 /* BrainTreePayments_Demo */,
+				3CEB095A218B2DE100A92793 /* Products */,
+				6A3D9780210E70CCEEB058E3 /* Pods */,
+				B2B88D277ADB17CDB6E740D2 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		3CEB095A218B2DE100A92793 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3CEB0959218B2DE100A92793 /* BrainTreePayments_Demo.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3CEB095B218B2DE100A92793 /* BrainTreePayments_Demo */ = {
+			isa = PBXGroup;
+			children = (
+				3CEB095C218B2DE100A92793 /* AppDelegate.swift */,
+				3CEB0960218B2DE100A92793 /* Main.storyboard */,
+				3CEB0963218B2DE300A92793 /* Assets.xcassets */,
+				3CEB0965218B2DE300A92793 /* LaunchScreen.storyboard */,
+				3CEB0968218B2DE300A92793 /* Info.plist */,
+				3CEB0984218B37BB00A92793 /* ViewControllers */,
+				3CEB0980218B379800A92793 /* Models */,
+				3CEB097B218B378E00A92793 /* Extensions */,
+				3CEB096E218B377C00A92793 /* Networking */,
+			);
+			path = BrainTreePayments_Demo;
+			sourceTree = "<group>";
+		};
+		3CEB096E218B377C00A92793 /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+				3CEB096F218B377D00A92793 /* ApiCallbacks.swift */,
+				3CEB0970218B377D00A92793 /* ApiParam.swift */,
+				3CEB0971218B377D00A92793 /* Reachability.swift */,
+				3CEB0972218B377D00A92793 /* ApiConfig.swift */,
+				3CEB0973218B377D00A92793 /* HttpManager.swift */,
+				3CEB0974218B377D00A92793 /* ApiRequest.swift */,
+			);
+			path = Networking;
+			sourceTree = "<group>";
+		};
+		3CEB097B218B378E00A92793 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				3CEB097C218B378E00A92793 /* ExtData.swift */,
+				3CEB097D218B378E00A92793 /* ExtString.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		3CEB0980218B379800A92793 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3CEB0981218B379800A92793 /* DebitResponseModel */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		3CEB0981218B379800A92793 /* DebitResponseModel */ = {
+			isa = PBXGroup;
+			children = (
+				3CEB0982218B379900A92793 /* DebitResponseModelBase.swift */,
+				3C921C13218B414B00ADEF56 /* Transaction.swift */,
+			);
+			path = DebitResponseModel;
+			sourceTree = "<group>";
+		};
+		3CEB0984218B37BB00A92793 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				3CEB0987218B399800A92793 /* BrainTreePaymentsViewController.swift */,
+				3CEB0985218B37CF00A92793 /* BaseViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		6A3D9780210E70CCEEB058E3 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CC32BD3066C175A0DEA4B81C /* Pods-BrainTreePayments_Demo.debug.xcconfig */,
+				F35D332FB78227DDD6F20934 /* Pods-BrainTreePayments_Demo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		B2B88D277ADB17CDB6E740D2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				985730047C05DD6F1DFC0E4D /* Pods_BrainTreePayments_Demo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3CEB0958218B2DE100A92793 /* BrainTreePayments_Demo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3CEB096B218B2DE300A92793 /* Build configuration list for PBXNativeTarget "BrainTreePayments_Demo" */;
+			buildPhases = (
+				659958BE50B80773120C3E94 /* [CP] Check Pods Manifest.lock */,
+				3CEB0955218B2DE100A92793 /* Sources */,
+				3CEB0956218B2DE100A92793 /* Frameworks */,
+				3CEB0957218B2DE100A92793 /* Resources */,
+				132B490458ED41CDEC5C35A9 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = BrainTreePayments_Demo;
+			productName = BrainTreePayments_Demo;
+			productReference = 3CEB0959218B2DE100A92793 /* BrainTreePayments_Demo.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3CEB0951218B2DE100A92793 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1000;
+				LastUpgradeCheck = 1000;
+				ORGANIZATIONNAME = "LogicalWings Mac";
+				TargetAttributes = {
+					3CEB0958218B2DE100A92793 = {
+						CreatedOnToolsVersion = 10.0;
+					};
+				};
+			};
+			buildConfigurationList = 3CEB0954218B2DE100A92793 /* Build configuration list for PBXProject "BrainTreePayments_Demo" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3CEB0950218B2DE100A92793;
+			productRefGroup = 3CEB095A218B2DE100A92793 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3CEB0958218B2DE100A92793 /* BrainTreePayments_Demo */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3CEB0957218B2DE100A92793 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CEB0967218B2DE300A92793 /* LaunchScreen.storyboard in Resources */,
+				3CEB0964218B2DE300A92793 /* Assets.xcassets in Resources */,
+				3CEB0962218B2DE100A92793 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		132B490458ED41CDEC5C35A9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-BrainTreePayments_Demo/Pods-BrainTreePayments_Demo-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Braintree/Braintree.framework",
+				"${BUILT_PRODUCTS_DIR}/BraintreeDropIn/BraintreeDropIn.framework",
+				"${BUILT_PRODUCTS_DIR}/SVProgressHUD/SVProgressHUD.framework",
+				"${BUILT_PRODUCTS_DIR}/Toast-Swift/Toast_Swift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Braintree.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BraintreeDropIn.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SVProgressHUD.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Toast_Swift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-BrainTreePayments_Demo/Pods-BrainTreePayments_Demo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		659958BE50B80773120C3E94 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-BrainTreePayments_Demo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3CEB0955218B2DE100A92793 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3CEB0976218B377D00A92793 /* ApiParam.swift in Sources */,
+				3CEB0979218B377D00A92793 /* HttpManager.swift in Sources */,
+				3CEB097F218B378E00A92793 /* ExtString.swift in Sources */,
+				3CEB0975218B377D00A92793 /* ApiCallbacks.swift in Sources */,
+				3CEB097E218B378E00A92793 /* ExtData.swift in Sources */,
+				3C921C14218B414B00ADEF56 /* Transaction.swift in Sources */,
+				3CEB0986218B37CF00A92793 /* BaseViewController.swift in Sources */,
+				3CEB0978218B377D00A92793 /* ApiConfig.swift in Sources */,
+				3CEB0977218B377D00A92793 /* Reachability.swift in Sources */,
+				3CEB0988218B399800A92793 /* BrainTreePaymentsViewController.swift in Sources */,
+				3CEB097A218B377D00A92793 /* ApiRequest.swift in Sources */,
+				3CEB095D218B2DE100A92793 /* AppDelegate.swift in Sources */,
+				3CEB0983218B379900A92793 /* DebitResponseModelBase.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		3CEB0960218B2DE100A92793 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3CEB0961218B2DE100A92793 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3CEB0965218B2DE300A92793 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3CEB0966218B2DE300A92793 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3CEB0969218B2DE300A92793 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		3CEB096A218B2DE300A92793 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3CEB096C218B2DE300A92793 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CC32BD3066C175A0DEA4B81C /* Pods-BrainTreePayments_Demo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F962MVHHWK;
+				INFOPLIST_FILE = BrainTreePayments_Demo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lwapp.BrainTreePayments-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		3CEB096D218B2DE300A92793 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F35D332FB78227DDD6F20934 /* Pods-BrainTreePayments_Demo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = F962MVHHWK;
+				INFOPLIST_FILE = BrainTreePayments_Demo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.lwapp.BrainTreePayments-Demo";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3CEB0954218B2DE100A92793 /* Build configuration list for PBXProject "BrainTreePayments_Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CEB0969218B2DE300A92793 /* Debug */,
+				3CEB096A218B2DE300A92793 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3CEB096B218B2DE300A92793 /* Build configuration list for PBXNativeTarget "BrainTreePayments_Demo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3CEB096C218B2DE300A92793 /* Debug */,
+				3CEB096D218B2DE300A92793 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3CEB0951218B2DE100A92793 /* Project object */;
+}

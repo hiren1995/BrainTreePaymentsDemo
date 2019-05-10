@@ -1,0 +1,64 @@
+PODS:
+  - Braintree (4.20.0):
+    - Braintree/Card (= 4.20.0)
+    - Braintree/Core (= 4.20.0)
+    - Braintree/PayPal (= 4.20.0)
+    - Braintree/UI (= 4.20.0)
+  - Braintree/Card (4.20.0):
+    - Braintree/Core
+  - Braintree/Core (4.20.0)
+  - Braintree/PaymentFlow (4.20.0):
+    - Braintree/Card
+    - Braintree/Core
+    - Braintree/PayPalOneTouch
+  - Braintree/PayPal (4.20.0):
+    - Braintree/Core
+    - Braintree/PayPalOneTouch
+  - Braintree/PayPalDataCollector (4.20.0):
+    - Braintree/Core
+    - Braintree/PayPalUtils
+  - Braintree/PayPalOneTouch (4.20.0):
+    - Braintree/Core
+    - Braintree/PayPalDataCollector
+    - Braintree/PayPalUtils
+  - Braintree/PayPalUtils (4.20.0)
+  - Braintree/UI (4.20.0):
+    - Braintree/Card
+    - Braintree/Core
+  - Braintree/UnionPay (4.20.0):
+    - Braintree/Card
+    - Braintree/Core
+  - BraintreeDropIn (6.5.0):
+    - BraintreeDropIn/DropIn (= 6.5.0)
+  - BraintreeDropIn/DropIn (6.5.0):
+    - Braintree/Card (~> 4.17)
+    - Braintree/Core (~> 4.17)
+    - Braintree/PaymentFlow (~> 4.17)
+    - Braintree/UnionPay (~> 4.17)
+    - BraintreeDropIn/UIKit
+  - BraintreeDropIn/UIKit (6.5.0)
+  - SVProgressHUD (2.2.5)
+  - Toast-Swift (4.0.0)
+
+DEPENDENCIES:
+  - Braintree
+  - BraintreeDropIn
+  - SVProgressHUD
+  - Toast-Swift
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Braintree
+    - BraintreeDropIn
+    - SVProgressHUD
+    - Toast-Swift
+
+SPEC CHECKSUMS:
+  Braintree: 5044eb5d490042d3308cc30f2e995b55db95e216
+  BraintreeDropIn: e141f6c1b49f0e3dd68ca00ccf6bb3031cc5e164
+  SVProgressHUD: 1428aafac632c1f86f62aa4243ec12008d7a51d6
+  Toast-Swift: 594b5c5e5129f15438e410207e43287f027b3c00
+
+PODFILE CHECKSUM: c7b5975aa030a4826432e95e2b499afb56e04d3a
+
+COCOAPODS: 1.5.3
